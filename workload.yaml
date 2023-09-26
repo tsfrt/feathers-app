@@ -1,0 +1,15 @@
+---
+apiVersion: carto.run/v1alpha1
+kind: Workload
+metadata:
+  name: feathers-app
+  namespace: develop
+  labels:
+    app.kubernetes.io/part-of: feathers-app
+    apps.tanzu.vmware.com/workload-type: web
+spec:
+  source:
+    git:
+      url: https://github.com/tsfrt/feathers-app.git
+      ref:
+        branch: main
