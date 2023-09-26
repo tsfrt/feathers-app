@@ -10,9 +10,9 @@
   "author": {},
   "contributors": [],
   "bugs": {},
-  "engines": {
-    "node": ">= 20.4.0"
-  },
+  //"engines": {
+  //  "node": ">= 20.4.0"
+  //},
   "feathers": {
     "language": "ts",
     "packager": "npm",
