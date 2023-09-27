@@ -9,7 +9,7 @@ metadata:
     - feathers
     - tanzu
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of= feathers-app'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=feathers-app'
 spec:
   type: service
   lifecycle: experimental
