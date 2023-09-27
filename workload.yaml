@@ -7,9 +7,11 @@ metadata:
   labels:
     app.kubernetes.io/part-of: feathers-app
     apps.tanzu.vmware.com/workload-type: web
+    apps.tanzu.vmware.com/has-tests: "true" 
 spec:
   source:
     git:
       url: https://github.com/tsfrt/feathers-app.git
       ref:
         branch: main
+        
