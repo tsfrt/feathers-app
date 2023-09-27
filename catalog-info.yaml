@@ -2,9 +2,15 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: feathers-app
+  description: feathers-app example
+  tags:
+    - app-accelerator
+    - node
+    - feathers
+    - tanzu
   annotations:
-    github.com/project-slug: tsfrt/feathers-app
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of= feathers-app'
 spec:
-  type: other
-  lifecycle: unknown
-  owner: default-org
+  type: service
+  lifecycle: experimental
+  owner: default-team
