@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: feathers-app
+  annotations:
+    github.com/project-slug: tsfrt/feathers-app
+spec:
+  type: other
+  lifecycle: unknown
+  owner: default-org
