@@ -26,7 +26,7 @@
     ],
     "entity": null,
     "oauth": {
-      "redirect": "https://feathers-app.develop.tap.build.h2o-2-18171.h2o.vmware.com/",
+      "redirect": "https://feathers-app.develop.tap.build.h2o-2-18171.h2o.vmware.com",
       "appsso": {
         "scope": "openid,profile,roles,email",
         "oauth": "2",
