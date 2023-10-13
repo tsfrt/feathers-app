@@ -3,7 +3,8 @@
   "port": 3030,
   "public": "./public/",
   "origins": [
-    "http://localhost:3030"
+    "http://localhost:3030",
+    "https://feathers-app.develop.tap.build.h2o-2-18171.h2o.vmware.com"
   ],
   "paginate": {
     "default": 10,
@@ -15,10 +16,6 @@
     "useNullAsDefault": true
   },
   "authentication": {
-    "origins": [
-      "http://localhost:3030",
-      "https://feathers-app.develop.tap.build.h2o-2-18171.h2o.vmware.com"
-    ],
     "secret": "2c41037a-33e7-466e-8096-4ff2a684cae4",
     "authStrategies": [
       "jwt",
