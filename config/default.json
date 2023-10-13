@@ -13,5 +13,18 @@
     "client": "sqlite3",
     "connection": "192.168.103.154:1521/XEPDB1",
     "useNullAsDefault": true
+  },
+  "authentication": {
+    "oauth": {
+      "redirect": "https://test-app23.develop.tap.build.h2o-2-18171.h2o.vmware.com/",
+      "appsso": {
+        "scope": "openid,profile,roles,email",
+        "oauth": "2",
+        "secret": "2c41037a-33e7-466e-8096-4ff2a684cae4",
+        "key": "develop_sso-claim-7gc5x-zh5gw",
+        "scope_delimiter": ",",
+        "token_endpoint_auth_method": "client_secret_basic"
+      }
+    }
   }
 }

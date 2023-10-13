@@ -49,6 +49,7 @@
     "@feathersjs/adapter-commons": "^5.0.8",
     "@feathersjs/authentication": "^5.0.8",
     "@feathersjs/authentication-client": "^5.0.8",
+    "@feathersjs/authentication-oauth": "^5.0.11",
     "@feathersjs/configuration": "^5.0.8",
     "@feathersjs/errors": "^5.0.8",
     "@feathersjs/feathers": "^5.0.8",
@@ -58,6 +59,8 @@
     "@feathersjs/socketio": "^5.0.8",
     "@feathersjs/transport-commons": "^5.0.8",
     "@feathersjs/typebox": "^5.0.8",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.1.0",
     "knex": "^2.5.1",
     "sqlite3": "^5.1.6",
     "winston": "^3.10.0"
@@ -65,6 +68,7 @@
   "devDependencies": {
     "@feathersjs/cli": "^5.0.8",
     "@feathersjs/rest-client": "^5.0.8",
+    "@types/debug": "^4.1.9",
     "@types/mocha": "^10.0.1",
     "@types/node": "^20.7.0",
     "axios": "^1.5.0",
