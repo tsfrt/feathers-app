@@ -15,6 +15,17 @@
     "useNullAsDefault": true
   },
   "authentication": {
+    "origins": [
+      "http://localhost:3030",
+      "https://test-app23.develop.tap.build.h2o-2-18171.h2o.vmware.com"
+    ],
+    "secret": "2c41037a-33e7-466e-8096-4ff2a684cae4",
+    "entity": "user",
+    "service": "users",
+    "authStrategies": [
+      "jwt",
+      "local"
+    ],
     "oauth": {
       "redirect": "https://test-app23.develop.tap.build.h2o-2-18171.h2o.vmware.com/",
       "appsso": {
