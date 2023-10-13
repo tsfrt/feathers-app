@@ -10,6 +10,7 @@ import { logError } from './hooks/log-error'
 //import { sqlite } from './sqlite'
 import { services } from './services/index'
 import { channels } from './channels'
+import {authentication} from './oauthStrategy'
 
 const app: Application = koa(feathers())
 
@@ -35,7 +36,7 @@ app.configure(
 //app.configure(sqlite)
 app.configure(services)
 app.configure(channels)
-
+app.configure(authentication)
 // Register hooks that run on all service methods
 app.hooks({
   around: {
