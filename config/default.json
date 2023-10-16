@@ -23,8 +23,9 @@
     ],
     "entity": null,
     "oauth": {
-      "redirect": "https://feathers-app.develop.tap.build.h2o-2-18171.h2o.vmware.com",
       "appsso": {
+        "authorize_url": "http://unsafe-demo.appsso.tap.build.h2o-2-18171.h2o.vmware.com/authorize",
+        "access_url": "http://unsafe-demo.appsso.tap.build.h2o-2-18171.h2o.vmware.com/token",
         "scope": "openid,profile,roles,email",
         "oauth": "2",
         "secret": "2c41037a-33e7-466e-8096-4ff2a684cae4",

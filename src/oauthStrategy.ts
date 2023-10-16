@@ -11,9 +11,9 @@ declare module './declarations' {
 export const authentication = (app: Application) => {
     const authentication = new AuthenticationService(app)
 
-    authentication.register('jwt', new JWTStrategy())
+    //authentication.register('jwt', new JWTStrategy())
     authentication.register('appsso', new OAuthStrategy())
     console.log(authentication)
     app.use('authentication', authentication)
-    app.configure(oauth({}))
+    app.configure(oauth())
 }
