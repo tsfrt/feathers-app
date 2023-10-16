@@ -23,15 +23,14 @@
     ],
     "entity": null,
     "oauth": {
-      "redirect": "https://feathers-app.develop.tap.build.h2o-2-18171.h2o.vmware.com",
       "appsso": {
         "authorize_url": "http://unsafe-demo.appsso.tap.build.h2o-2-18171.h2o.vmware.com",
         "access_url": "http://unsafe-demo.appsso.tap.build.h2o-2-18171.h2o.vmware.com",
         "scope": "openid,profile,roles,email",
-        "oauth": "2",
-        "secret": "b8cc6d73-d745-4122-ba59-01163c145fed",
-        "key": "develop_feathers-sso-claim-4n6cv-jvj4n",
-        "token_endpoint_auth_method": "client_secret_basic"
+        "oauth": 2,
+        "secret": "f4269b3b-2c44-47de-80e8-9b134e3b54d1",
+        "key": "develop_feathers-sso-claim-gxxsf-4fvs7",
+        "token_endpoint_auth_method": "none"
       }
     }
   }
