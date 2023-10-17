@@ -29,6 +29,7 @@
         "key": "0fa3314ce6a29c85efb1"
       },
       "appsso": {
+        "redirect_uri": "https://feathers-app.develop.tap.build.h2o-2-18171.h2o.vmware.com/oauth/appsso/callback",
         "authorize_url": "http://unsafe-demo.appsso.tap.build.h2o-2-18171.h2o.vmware.com/oauth2/authorize",
         "access_url": "http://unsafe-demo.appsso.tap.build.h2o-2-18171.h2o.vmware.com/oauth2/token",
         "scope": "openid,profile,roles,email",
