@@ -23,7 +23,7 @@
     ],
     "entity": null,
     "oauth": {
-      "redirect": "/",
+      "redirect": "https://feathers-app.develop.tap.build.h2o-2-18171.h2o.vmware.com/",
       "github": {
         "secret": "72f31184649a6f5c9e32bfcf4b87027c2143eabc",
         "key": "0fa3314ce6a29c85efb1"
