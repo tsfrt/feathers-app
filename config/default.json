@@ -30,7 +30,7 @@
       },
       "appsso": {
         "authorize_url": "http://unsafe-demo.appsso.tap.build.h2o-2-18171.h2o.vmware.com/oauth2/authorize",
-        "access_url": "http://unsafe-demo.appsso.tap.build.h2o-2-18171.h2o.vmware.com",
+        "access_url": "http://unsafe-demo.appsso.tap.build.h2o-2-18171.h2o.vmware.com/oauth2/token",
         "scope": "openid,profile,roles,email",
         "oauth": 2,
         "secret": "f4269b3b-2c44-47de-80e8-9b134e3b54d1",
