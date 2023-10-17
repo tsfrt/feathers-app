@@ -13,7 +13,8 @@ export const authentication = (app: Application) => {
 
     //authentication.register('jwt', new JWTStrategy())
     authentication.register('appsso', new OAuthStrategy())
-    console.log(authentication)
+    authentication.register('github', new OAuthStrategy())
+
     app.use('authentication', authentication)
     app.configure(oauth())
 }
